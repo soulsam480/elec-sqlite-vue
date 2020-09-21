@@ -1,5 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <p>About</p>
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent, reactive, ref } from "vue";
+
+export default defineComponent({
+  name: "About",
+  setup() {
+    const state = reactive({});
+
+    return { state };
+  },
+});
+</script>
+
+<style lang="scss" scoped></style>
