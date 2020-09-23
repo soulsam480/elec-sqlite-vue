@@ -2,8 +2,7 @@
   "name": "elec-sqlite-vue",
   "version": "0.1.0",
   "private": true,
-  "license": "GNU General Public License",
-  "author": "sSoulsam480 <soulsam480@hotmail.com> ",
+  "author": "soulsam480 <soulsam480@hotmail.com> ",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -40,5 +39,6 @@
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
     "vue-cli-plugin-electron-builder": "~2.0.0-rc.4"
-  }
+  },
+  "license": "GNU General Public License"
 }

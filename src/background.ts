@@ -6,8 +6,8 @@
 
 import { app, protocol, BrowserWindow } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
-// import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
-const isDevelopment = process.env.NODE_ENV !== 'production'
+/* import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
+ */const isDevelopment = process.env.NODE_ENV !== 'production'
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -75,11 +75,11 @@ app.on('ready', async () => {
     // If you are not using Windows 10 dark mode, you may uncomment the following lines (and the import at the top of the file)
     // In addition, if you upgrade to Electron ^8.2.5 or ^9.0.0 then devtools should work fine
 
-    // try {
-    //   await installExtension(VUEJS_DEVTOOLS)
-    // } catch (e) {
-    //   console.error('Vue Devtools failed to install:', e.toString())
-    // }
+    /*  try {
+       await installExtension(VUEJS_DEVTOOLS)
+     } catch (e) {
+       console.error('Vue Devtools failed to install:', e.toString())
+     } */
 
   }
   createWindow()
