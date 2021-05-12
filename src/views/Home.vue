@@ -112,13 +112,13 @@ export default defineComponent({
               1,
               {
                 firstName: el.firstName,
-                lastName: el.LastName,
+                lastName: el.lastName,
                 id: el.id,
               }
             )
           : allData.push({
               firstName: el.firstName,
-              lastName: el.LastName,
+              lastName: el.lastName,
               id: el.id,
             });
       });
